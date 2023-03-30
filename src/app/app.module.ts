@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WagaComponent } from './components/waga/waga.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WagaComponent
   ],
   imports: [
     BrowserModule,
